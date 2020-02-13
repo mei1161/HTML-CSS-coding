@@ -1,0 +1,32 @@
+body{
+  padding-left: 20px;
+}
+
+header{
+  background-color: #aaaaaa;
+}
+header h1{
+  font-size: 40px;
+  background-color: #afeded;
+}
+.nav ul li{
+  display: inline;
+  font-size: 20px;
+  padding-left: 50px;
+}
+.nav{
+  margin-top: -70px;
+  text-align: right;
+  margin-bottom: 60px;
+  margin-right: 50px;
+}
+.main{
+  background-color: #afeded;
+}
+footer ul li{
+  display: inline;
+  padding: 100px;
+}
+.container{
+  padding: 0 20px;
+}
