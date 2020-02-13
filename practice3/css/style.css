@@ -9,16 +9,14 @@ header h1{
   font-size: 40px;
   background-color: #afeded;
 }
-.nav ul li{
-  display: inline;
-  font-size: 20px;
-  padding-left: 50px;
-}
 .nav{
-  margin-top: -70px;
-  text-align: right;
-  margin-bottom: 60px;
-  margin-right: 50px;
+  margin: auto;
+}
+.nav ul{
+  display: flex;
+}
+.nav ul li{
+  flex-grow: 1;
 }
 .main{
   background-color: #afeded;
@@ -27,6 +25,9 @@ footer ul li{
   display: inline;
   padding: 100px;
 }
-.container{
-  padding: 0 20px;
+.title{
+  background-color:aquamarine;
+  width: 30%;
+  margin-bottom: 50px;
+  text-align: center;
 }
